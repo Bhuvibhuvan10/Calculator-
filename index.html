@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level 1\2</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button onclick="greeting()" id="greet" >Click me !!!!</button>
+    <button onclick="changecolor()" id="mybtn"><i class="material-icons" id="smile" style="font-size:60px;color:yellow;">tag_faces</i></button>
+    
+    <div class="calc">
+        <form id="formcalc">
+        <input id="calc" type="text" name="answer"/>
+        <input type="button" value="1" onclick="formcalc.answer.value+='1'"/>
+        <input type="button" value="2" onclick="formcalc.answer.value+='2'"/>
+        <input type="button" value="3" onclick="formcalc.answer.value+='3'"/>
+        <input type="button" value="4" onclick="formcalc.answer.value+='4'"/>
+        
+        <input type="button" value="5" onclick="formcalc.answer.value+='5'"/>
+        <input type="button" value="6" onclick="formcalc.answer.value+='6'"/>
+        <input type="button" value="7" onclick="formcalc.answer.value+='7'"/>
+        <input type="button" value="8" onclick="formcalc.answer.value+='8'"/>
+        
+        <input type="button" value="9" onclick="formcalc.answer.value+='9'"/>
+        <input type="button" value="0" onclick="formcalc.answer.value+='0'"/>
+        <input type="button" id="sign" value="+" onclick="formcalc.answer.value+='+'"/>
+        <input type="button"id="sign"  value="-" onclick="formcalc.answer.value+='-'"/>
+        
+        <input type="button" id="sign"  value="*" onclick="formcalc.answer.value+='*'"/>
+        <input type="button" id="sign" value="/" onclick="formcalc.answer.value+='/'"/>
+        <input type="button" id="sign" value="." onclick="formcalc.answer.value+='.'"/>
+        <input type="button" id="sign" value="=" onclick="formcalc.answer.value=eval(formcalc.answer.value)"/>
+
+        <input type="submit" value="Clear All" onclick="formcalc.answer.value+=''" />
+    </form>
+    </div>
+</body>
+</html>

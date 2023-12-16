@@ -1,0 +1,67 @@
+*{
+    margin: 50px 50px 50px 50px;
+    padding:0;
+    box-sizing: border-box;
+}
+#greet{
+    border:none;
+    border-radius:30px; 
+    font-size: larger;
+    font-weight: bolder; 
+    background-color: aquamarine;
+    width: 100%;
+}
+#mybtn{
+    border: none;
+    font-size: larger;
+    padding: 20px; 
+    font-weight: bolder;
+    border-radius: 50%;
+    margin-left: 45%;
+    
+}
+div{
+    
+    background-color: rgb(240, 238, 234);
+    box-sizing: border-box;
+    width:375px;
+    height:500px;
+    margin-left:37%;
+    box-shadow: 5px 5px 10px 2px;
+    border:none;
+    border-radius: 20px;
+}
+div input[type="text"]{
+    width:250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+div input[type="button"]{
+    width:30px;
+    height:30px;
+    padding: 20px;
+    margin-left: 50px;
+    align-items: center;
+    justify-items: center;
+    margin:10px;
+    margin-top: 2px;
+    background-color: rgb(78, 78, 239);
+    font-size: larger;
+    text-align: justify;
+    font-weight: bolder;
+    box-shadow: 5px 2px 5px 2px;
+    border-radius:30px;
+}
+
+div input[type=submit]{
+    width:250px;
+    height: 50px;
+    margin-left:10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: 5px 2px 5px 2px;
+}
